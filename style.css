@@ -1,0 +1,215 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-shrink: 0;
+}
+.ilk, .iki {
+  width: 600px;
+}
+
+.ust1 {
+  display: flex;
+}
+
+.sira {
+  height: 30px;
+  width: 30px;
+  border: 1px dashed black;
+  margin-right: 4px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.siraic {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.sirayan {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vergidairesi {
+  height: 17px;
+  width: 400px;
+  border: 1px dashed black;
+}
+
+.vergialt {
+  display: flex;
+  margin-top: 4px;
+  width: 402px;
+}
+.tarih {
+  height: 17px;
+  width: 80px;
+  border: 1px dashed black;
+  margin-right: 4px;
+}
+.no {
+  height: 17px;
+  width: 40px;
+  margin-right: 4px;
+  border: 1px dashed black;
+}
+.kimden {
+  height: 17px;
+  width: 200px;
+  margin-right: 4px;
+  border: 1px dashed black;
+}
+.turu {
+  height: 17px;
+  width: 77px;
+  margin-right: 4px;
+  border: 1px dashed black;
+  padding-left: 23px;
+}
+.tutar {
+  height: 17px;
+  width: 70px;
+  border: 1px dashed #000;
+  justify-content: center;
+  padding-left: 20px;
+}
+.siralama {
+  display: flex;
+  flex-shrink: 0;
+}
+.siralamak {
+  height: 20px;
+  width: 30px;
+  border: 1px dashed black;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.tarihinput {
+  width: 54px;
+  height: 18px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.noinput {
+  width: 23px;
+  height: 16px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.kimdeninput {
+  margin-top: 4px;
+  width: 136px;
+  height: 16px;
+  margin-right: 4px;
+}
+.select1 {
+  margin-top: 4px;
+  width: 80px;
+  height: 22px;
+  margin-right: 4px;
+}
+.tutarinput {
+  width: 64px;
+  height: 16px;
+  margin-top: 4px;
+}
+.toplam1 {
+  width: 540px;
+  display: flex;
+}
+.toplam1_1 {
+  width: 355px;
+  text-align: right;
+  margin-top: 4px;
+  margin-right: 4px;
+  padding-right: 5px;
+  border: 1px dashed #000;
+}
+.toplam1_2 {
+  width: 70px;
+  text-align: center;
+  margin-top: 4px;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+.toplam2_1 {
+  width: 355px;
+  text-align: right;
+  margin-top: 4px;
+  margin-right: 4px;
+  padding-right: 5px;
+  border: 1px dashed #000;
+}
+.toplam2_2 {
+  width: 70px;
+  text-align: center;
+  margin-top: 4px;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+.adet_tutar {
+  width: 200px;
+  height: 20px;
+  display: flex;
+  margin-left: 214px;
+}
+.adet {
+  width: 70px;
+  height: 18px;
+  border: 1px dashed #000;
+  text-align: center;
+}
+.tutar_2 {
+  width: 70px;
+  height: 18px;
+  border: 1px dashed #000;
+  text-align: center;
+  margin-left: 4px;
+}
+.genel, .gida_1, .giyim_1, .kira_1, .saglik_1, .egitim_1 {
+  display: flex;
+  width: 600px;
+  height: 20px;
+  margin-top: 4px;
+}
+.bas {
+  width: 208;
+  border: 1px dashed #000;
+  margin-right: 4px;
+}
+._0 {
+  width: 70px;
+  height: 18px;
+  border: 1px solid #000;
+  margin-right: 4px;
+  text-align: center;
+}
+.genel .bas{
+  width: 208px;
+}
+.saglik_1 .bas{
+  width: 208px;
+}
+.gida_1 .bas{
+  width: 208px;
+}
+.kira_1 .bas{
+  width: 208px;
+}
+.giyim_1 .bas{
+  width: 208px;
+}
+.egitim_1 .bas{
+  width: 208px;
+}
+/*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*/
+
